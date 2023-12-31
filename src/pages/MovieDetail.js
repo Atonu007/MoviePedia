@@ -17,9 +17,9 @@ export  function MovieDetail() {
       
     }
     fetchMovie();
-  } ,[]);
+  } ,[params.id]);
   
-  const pageTitle = useTitle(movie.title);
+  useTitle(movie.title);
   return (
     <main>
       <section className="flex justify-around flex-wrap py-5 ">

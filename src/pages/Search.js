@@ -8,7 +8,7 @@ export function Search({apiPath}) {
   const [SearchParams]= useSearchParams();
   const queryTerm = SearchParams.get('q');
   const { data: movies } = useFetch(apiPath, queryTerm);
-  const pageTitle= useTitle(`search result for ${queryTerm}/moviepedia`);
+  useTitle(`search result for ${queryTerm}/moviepedia`);
   return (
     <main>
       <section className="py-7">
