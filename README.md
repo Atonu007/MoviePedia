@@ -71,5 +71,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # MoviePedia
-To Be Written
->>>>>>> origin/main
+MoviePedia: Responsive Web App
+• Utilizes React.js and Tailwind CSS for real-time movie information.
+• Features a user-friendly interface with integrated React Router.
+• Utilizes The Movie Database API for data retrieval.
+• Demonstrates effective project management through Git version control.
+
+
+here is live link: https://findsmovie.netlify.app/
